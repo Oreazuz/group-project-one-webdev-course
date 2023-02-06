@@ -1,0 +1,21 @@
+body{
+    background-image:url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav--bar{
+    background-color:#282828;
+    max-width: 80vw;
+    min-width: 40vw;
+    height: 10vh;
+    justify-self: center;
+    margin: 20px auto 0;
+}
+
+.main--content{
+    background-color: #282828;
+    max-width: 80vw;
+    display: flex;
+}
