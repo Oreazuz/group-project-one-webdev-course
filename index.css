@@ -2,6 +2,7 @@ body{
     background-image:url("./images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #282828;
 }
 
 
@@ -11,11 +12,49 @@ body{
     min-width: 40vw;
     height: 10vh;
     justify-self: center;
-    margin: 20px auto 0;
+    margin: 2% auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.nav--bar-left{
+    display:flex;
+
+}
+
+.nav--bar-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav--bar-elements{
+    min-height: 100%;
+    min-width: 10%;
+    padding: 50px;
+}
+.nav--bar-elements:hover{
+    background-color:#2dca4b;
+}
+
+a{
+    color:#2dca4b;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+a:hover{
+    color: #282828;
 }
 
 .main--content{
     background-color: #282828;
     max-width: 80vw;
     display: flex;
+    min-height: 80vh;
+    border-top: 5px;
+    border-color: #141414;
+    border-style:dotted;
+    margin: 0 auto;
 }
