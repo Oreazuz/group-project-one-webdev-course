@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Tattoo Shop</title>
+
+</head>
+<body>
+    <header>
+        <nav class="nav--bar">
+           
+            <div class="nav--bar-left">
+                <a class="nav--bar-elements">Home</a>
+                <a class="nav--bar-elements">About Us</a>
+                <a class="nav--bar-elements">Gallery</a>
+            </div>
+            
+            <div class="nav--bar-right">
+                <a class="nav--bar-elements">Contact Us</a>
+            </div>
+                
+            
+        </nav>
+    </header >
+
+    <main class="main--content">
+        <h2>Contact Form</h2>
+        <div class="container">
+          <form action="/form/submit" method="POST">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="name" placeholder="Type your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="surname" placeholder="Type your last name..">
+            <label for="lname">E-mail Address</label>
+            <input type="text" id="mail" name="e-mail" placeholder="Type your e-mail..">
+            <label for="ci">Country</label>
+            <select id="country" name="country">
+              <option value="usa">USA</option>
+              <option value="norway">Norway</option>
+              <option value="sweden">Sweden</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message.." style="height:200px"></textarea>
+            <input type="submit" value="Send">
+          </form>
+        </div>
+  
+        
+    </main>
+    
+
+    
+</body>
+</html>
