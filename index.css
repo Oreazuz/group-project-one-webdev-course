@@ -43,6 +43,7 @@ a{
     color:#2dca4b;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
+    text-decoration: none;
 }
 a:hover{
     color: #282828;
