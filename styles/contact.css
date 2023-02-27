@@ -35,8 +35,7 @@ input[type=text], select, textarea {
 input:hover, select:hover, textarea:hover {
   background-color: #2dca4b;
 }
-
-.fname, .lname, .phone, .experience, .message {
+.fname, .lname, .phone, .experience, .message  {
   color: #2dca4b;
   font-family: 'Roboto Condensed', sans-serif;
 }
