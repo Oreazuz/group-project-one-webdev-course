@@ -1,6 +1,9 @@
 .main--content {
   display: flex;
   justify-content: center;
+  background-image: url(../images/pexels-aleksandar-pasaric-2713983.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 .contact-title {
   color: #2dca4b;
@@ -16,7 +19,7 @@
   width: 100%;
   min-height: 700px;
   border-radius: 8px;
-  padding: 20px;
+  padding: 70px;
   box-sizing: border-box;
 }
 input[type=text], select, textarea {
