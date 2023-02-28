@@ -41,14 +41,14 @@
                 <label for="lname" class="lname">Last Name</label>
                 <input type="text" id="lname" name="surname" placeholder="Type your last name">
                 <label for="phone" class="phone">Your Phone Number</label>
-                <input type="text" id="phone" name="phone" placeholder="Type your phone number">
+                <input type="text" id="phone" name="phone" placeholder="Type your phone number" required autofocus>
                 <label for="experience" class="experience">Is This Your First Time Getting A Tattoo?</label>
                 <select id="experience" name="experience">
                 <option value="Y">Yes</option>
                 <option value="N">No</option>
                 </select>
                 <label for="message" class="message">Message</label>
-                <textarea id="message" name="message" placeholder="Type your message" rows="10"></textarea>
+                <textarea id="message" name="message" placeholder="Type your message" rows="10" maxlength="250"></textarea>
                 <button class="submit">Submit</button>
             </form>
         </div>
