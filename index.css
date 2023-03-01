@@ -44,6 +44,7 @@ a{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
     text-decoration: none;
+    text-align: center;
 }
 a:hover{
     color: #282828;
@@ -106,3 +107,16 @@ p{
 footer{
     
 }
+
+
+@media screen and (max-width:1150px){
+    a{
+        font-size: 20px;
+    }
+    .nav--bar-elements{
+        min-height: 100%;
+        min-width: 10%;
+        padding: 25px;
+    }
+}
+
